@@ -1,0 +1,18 @@
+{
+  "name": "gulp-conditional-compile",
+  "version": "1.0.0",
+  "description": "gulp插件，通过条件注释，在html,css,js,json等文件中进行条件编译",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ahao430/gulp-conditional-compile.git"
+  },  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "through2": "^4.0.2"
+  }
+}

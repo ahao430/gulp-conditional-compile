@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "示例页面",
+  /* if platform == wx */
+  "navigationBarBackgroundColor": "#07c160",
+  /* elif platform == alipay */
+  "navigationBarBackgroundColor": "#1677ff",
+  /* else */
+  "navigationBarBackgroundColor": "#999999",
+  /* endif */
+  "usingComponents": {
+    /* if platform == wx */
+    "custom-component": "/components/wx-only/index",
+    /* elif platform == alipay */
+    "custom-component": "/components/alipay-only/index",
+    /* else */
+    "custom-component": "/components/default/index",
+    /* endif */
+  }
+}

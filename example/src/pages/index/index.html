@@ -1,0 +1,13 @@
+<view class="example-page">
+  <!-- if platform == wx -->
+  <view a:if="{{true}}">这段内容只在微信小程序中显示</view>
+  <!-- elif platform == alipay -->
+  <view a:if="{{true}}">这段内容只在支付宝小程序中显示</view>
+  <!-- else -->
+  <view a:if="{{true}}">当前平台不支持的内容</view>
+  <!-- endif -->
+
+  <!-- if debug == true -->
+  <view a:if="{{true}}">这段内容只在debug中显示</view>
+  <!-- endif -->
+</view>
