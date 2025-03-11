@@ -119,7 +119,7 @@ function conditionalComments({commentType = 'js', conditions = [], cb}) {
       if (cb) {
         // console.log(cb);
         // console.log(content);
-        content = cb(content);
+        content = cb(content, file.path);
         // console.log(content);
       }
       file.contents = Buffer.from(content);

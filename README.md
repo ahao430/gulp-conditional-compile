@@ -84,6 +84,7 @@ my.getAuthCode();
 
 - `cb` (Function, 可选): 自定义回调函数，用于处理编译后的内容
   - 参数：`content` (string) - 编译后的内容
+  - 参数：`path` (string) - 文件的路径
   - 返回值：处理后的内容
 
 ## 示例项目

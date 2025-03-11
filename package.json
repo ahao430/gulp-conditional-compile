@@ -1,6 +1,6 @@
 {
   "name": "gulp-conditional-compile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "gulp插件，通过条件注释，在html,css,js,json等文件中进行条件编译",
   "main": "index.js",
   "repository": {
